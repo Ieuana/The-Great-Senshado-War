@@ -1,0 +1,581 @@
+﻿focus_tree = {
+	id = WAF_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = WAF
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 60 y = 2000 }
+
+	focus = {
+		id = WAF_challenge_infighting
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 1
+		#relative_position_id = KOI_hitlers_rise_to_power
+		
+		cost = 10
+		#prerequisite = { focus = KOI_hitlers_rise_to_power }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_support_the_stroop
+		icon = GFX_goal_generic_major_war
+		x = -8
+		y = 1
+		relative_position_id = WAF_challenge_infighting
+		
+		cost = 10
+		prerequisite = { focus = WAF_challenge_infighting }
+		mutually_exclusive = { focus = WAF_support_the_toffee }
+		mutually_exclusive = { focus = WAF_support_the_waffle }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_outside_perspective
+		icon = GFX_goal_generic_major_war
+		x = -6
+		y = 1
+		relative_position_id = WAF_support_the_stroop
+		
+		cost = 10
+		prerequisite = { focus = WAF_support_the_stroop }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_benelux_camaraderie
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 1
+		relative_position_id = WAF_outside_perspective
+		
+		cost = 10
+		prerequisite = { focus = WAF_outside_perspective }
+		mutually_exclusive = { focus = WAF_one_benelux }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_the_benelux_defence_committee
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = WAF_benelux_camaraderie
+		
+		cost = 10
+		prerequisite = { focus = WAF_benelux_camaraderie }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_dutch_diplomacy
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		relative_position_id = WAF_benelux_camaraderie
+		
+		cost = 10
+		prerequisite = { focus = WAF_benelux_camaraderie }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_luxembourgish_diplomats
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 1
+		relative_position_id = WAF_benelux_camaraderie
+		
+		cost = 10
+		prerequisite = { focus = WAF_benelux_camaraderie }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_one_benelux
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 1
+		relative_position_id = WAF_outside_perspective
+		
+		cost = 10
+		prerequisite = { focus = WAF_outside_perspective }
+		mutually_exclusive = { focus = WAF_benelux_camaraderie }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_luxembourg_reborn
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = WAF_one_benelux
+		
+		cost = 10
+		prerequisite = { focus = WAF_one_benelux }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_two_state_policy
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		relative_position_id = WAF_luxembourg_reborn
+		
+		cost = 10
+		prerequisite = { focus = WAF_luxembourg_reborn }
+		mutually_exclusive = { focus = WAF_one_state_one_rule }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_united_and_strong
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = WAF_two_state_policy
+		
+		cost = 10
+		prerequisite = { focus = WAF_two_state_policy }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_one_state_one_rule
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 1
+		relative_position_id = WAF_luxembourg_reborn
+		
+		cost = 10
+		prerequisite = { focus = WAF_luxembourg_reborn }
+		mutually_exclusive = { focus = WAF_two_state_policy }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_absorb_luxembourg
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = WAF_one_state_one_rule
+		
+		cost = 10
+		prerequisite = { focus = WAF_one_state_one_rule }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_the_netherlands_issue
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		relative_position_id = WAF_absorb_luxembourg
+		
+		cost = 10
+		prerequisite = { focus = WAF_absorb_luxembourg focus = WAF_united_and_strong }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_support_the_toffee
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 1
+		relative_position_id = WAF_challenge_infighting
+		
+		cost = 10
+		prerequisite = { focus = WAF_challenge_infighting }
+		mutually_exclusive = { focus = WAF_support_the_stroop }
+		mutually_exclusive = { focus = WAF_support_the_waffle }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = WAF_support_the_waffle
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = WAF_challenge_infighting
+		
+		cost = 10
+		prerequisite = { focus = WAF_challenge_infighting }
+		mutually_exclusive = { focus = WAF_support_the_toffee }
+		mutually_exclusive = { focus = WAF_support_the_stroop }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	
+}

@@ -1,0 +1,24 @@
+spriteTypes = {	
+
+	SpriteType = {
+	name = "GFX_goal_kuromorimine_ascension"
+	texturefile = "gfx/interface/goals/Kuromorimine Ascension.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_generic_pact"
+	texturefile = "gfx/interface/goals/generic pact.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_kuromorimine_shield"
+	texturefile = "gfx/interface/goals/kuromorimine shield.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_gloriana_shield"
+	texturefile = "gfx/interface/goals/gloriana shield.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_saunders_shield"
+	texturefile = "gfx/interface/goals/saunders shield.dds"			
+	}
+	
+}

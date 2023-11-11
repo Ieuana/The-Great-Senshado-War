@@ -1,0 +1,19 @@
+spriteTypes = {	
+	
+	### Oarai Ideas ###
+	spriteType = {
+		name = "GFX_idea_OAR_funding_crisis"
+		texturefile = "gfx/interface/ideas/OAR_funding_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OAR_united_government"
+		texturefile = "gfx/interface/ideas/united government.dds"
+	}
+	
+	### Kuromorimine Ideas ###
+	spriteType = {
+		name = "GFX_idea_KOI_nishizumi_heresy"
+		texturefile = "gfx/interface/ideas/nishizumi_heresy.dds"
+	}
+	
+}

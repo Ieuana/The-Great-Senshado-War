@@ -1,0 +1,953 @@
+﻿focus_tree = {
+	id = OAR_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = OAR
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 60 y = 2000 }
+
+	focus = {
+		id = OAR_address_the_funding_crisis
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 1
+		#relative_position_id = KOI_hitlers_rise_to_power
+		
+		cost = 10
+		#prerequisite = { focus = KOI_hitlers_rise_to_power }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		
+	}
+	focus = {
+		id = OAR_ask_the_schools
+		icon = GFX_goal_generic_pact
+		x = 7
+		y = 1
+		relative_position_id = OAR_address_the_funding_crisis
+		
+		cost = 10
+		prerequisite = { focus = OAR_address_the_funding_crisis }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_plead_with_kuromorimine
+		icon = GFX_goal_kuromorimine_shield
+		x = 4
+		y = 1
+		relative_position_id = OAR_ask_the_schools
+		
+		cost = 10
+		prerequisite = { focus = OAR_ask_the_schools }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			any_country = {
+				original_tag = KOI
+				has_completed_focus = KOI_nishizumi_consolidation
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_german_armour
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		relative_position_id = OAR_plead_with_kuromorimine
+		
+		cost = 10
+		prerequisite = { focus = OAR_plead_with_kuromorimine }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_kuromorimine_tactics
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 1
+		relative_position_id = OAR_plead_with_kuromorimine
+		
+		cost = 10
+		prerequisite = { focus = OAR_plead_with_kuromorimine }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_training_officer_attaches
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = OAR_kuromorimine_tactics
+		
+		cost = 10
+		prerequisite = { focus = OAR_kuromorimine_tactics }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_new_luftwaffe
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = OAR_german_armour
+		
+		cost = 10
+		prerequisite = { focus = OAR_german_armour }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_concessions_to_kuromorimine
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		relative_position_id = OAR_training_officer_attaches
+		
+		cost = 10
+		prerequisite = { focus = OAR_training_officer_attaches }
+		prerequisite = { focus = OAR_new_luftwaffe }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_end_the_heresy
+		icon = GFX_goal_generic_major_war
+		x = -4
+		y = 2
+		relative_position_id = OAR_concessions_to_kuromorimine
+		
+		cost = 10
+		prerequisite = { focus = OAR_concessions_to_kuromorimine }
+		mutually_exclusive = { focus = OAR_break_the_deal }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_break_the_deal
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 2
+		relative_position_id = OAR_concessions_to_kuromorimine
+		
+		cost = 10
+		prerequisite = { focus = OAR_concessions_to_kuromorimine }
+		mutually_exclusive = { focus = OAR_end_the_heresy }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_approach_st_glorianas
+		icon = GFX_goal_gloriana_shield
+		x = 0
+		y = 1
+		relative_position_id = OAR_ask_the_schools
+		
+		cost = 10
+		prerequisite = { focus = OAR_ask_the_schools }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_funds_of_the_british_empire
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 1
+		relative_position_id = OAR_approach_st_glorianas
+		
+		cost = 10
+		prerequisite = { focus = OAR_approach_st_glorianas }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_might_of_the_british_empire
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		relative_position_id = OAR_approach_st_glorianas
+		
+		cost = 10
+		prerequisite = { focus = OAR_approach_st_glorianas }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_imperial_interests
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		relative_position_id = OAR_funds_of_the_british_empire
+		
+		cost = 10
+		prerequisite = { focus = OAR_might_of_the_british_empire }
+		prerequisite = { focus = OAR_funds_of_the_british_empire }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_british_lithuanian_alliance
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = OAR_imperial_interests
+		
+		cost = 10
+		prerequisite = { focus = OAR_imperial_interests }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_reach_out_to_saunders
+		icon = GFX_goal_saunders_shield
+		x = -4
+		y = 1
+		relative_position_id = OAR_ask_the_schools
+		
+		cost = 10
+		prerequisite = { focus = OAR_ask_the_schools }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_tempering_arrogance
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = OAR_reach_out_to_saunders
+		
+		cost = 10
+		prerequisite = { focus = OAR_reach_out_to_saunders }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_demonstrate_lithuanian_military
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		relative_position_id = OAR_tempering_arrogance
+		
+		cost = 10
+		prerequisite = { focus = OAR_tempering_arrogance }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_demonstrate_oarai_expertise
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = OAR_tempering_arrogance
+		
+		cost = 10
+		prerequisite = { focus = OAR_tempering_arrogance }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_demonstrate_strategic_location
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 1
+		relative_position_id = OAR_tempering_arrogance
+		
+		cost = 10
+		prerequisite = { focus = OAR_tempering_arrogance }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_offer_access
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		relative_position_id = OAR_demonstrate_strategic_location
+		
+		cost = 10
+		prerequisite = { focus = OAR_demonstrate_strategic_location }
+		prerequisite = { focus = OAR_demonstrate_oarai_expertise }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_offer_military_treaties
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 1
+		relative_position_id = OAR_demonstrate_lithuanian_military
+		
+		cost = 10
+		prerequisite = { focus = OAR_demonstrate_lithuanian_military }
+		prerequisite = { focus = OAR_demonstrate_oarai_expertise }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_finalise_the_deal
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		relative_position_id = OAR_offer_access
+		
+		cost = 10
+		prerequisite = { focus = OAR_offer_military_treaties focus = OAR_offer_access }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_the_european_america_treaty
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = OAR_finalise_the_deal
+		
+		cost = 10
+		prerequisite = { focus = OAR_finalise_the_deal }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_lithuanian_industrialisation
+		icon = GFX_goal_generic_major_war
+		x = -7
+		y = 1
+		relative_position_id = OAR_address_the_funding_crisis
+		
+		cost = 10
+		prerequisite = { focus = OAR_address_the_funding_crisis }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_modernise_civilian_industries
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 1
+		relative_position_id = OAR_lithuanian_industrialisation
+		
+		cost = 10
+		prerequisite = { focus = OAR_lithuanian_industrialisation }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = OAR_expand_military_industry
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 1
+		relative_position_id = OAR_lithuanian_industrialisation
+		
+		cost = 10
+		prerequisite = { focus = OAR_lithuanian_industrialisation }
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	
+}

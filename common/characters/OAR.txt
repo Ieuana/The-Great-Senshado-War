@@ -1,0 +1,180 @@
+characters={
+	OAR_character_Yukari_Akiyama={
+		name=OAR_YUKARI_AKIYAMA
+		portraits={
+			civilian={
+				large="GFX_portrait_Yukari_Akiyama_large"
+				small="GFX_portrait_Yukari_Akiyama_small"
+				}
+			army={
+				large="GFX_portrait_Yukari_Akiyama_large"
+				small="GFX_portrait_Yukari_Akiyama_small"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			traits = {
+				senshado_student
+				tank_fanatic
+			}
+			desc = OAR_YUKARI_AKIYAMA_DESC
+			expire="1965.1.1.1"
+			
+		}
+			
+		advisor={
+			slot = high_command
+			idea_token = yukari_akiyama
+			allowed = {
+				original_tag = OAR
+				NOT = { is_country_leader = yes }
+			}
+			traits = {
+				tank_fanatic
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	OAR_character_Yuzu_Koyama={
+		name=OAR_YUZU_KOYAMA
+		portraits={
+			civilian={
+				large="GFX_portrait_Yuzu_Koyama_large"
+				small="GFX_portrait_Yuzu_Koyama_small"
+				}
+			army={
+				large="GFX_portrait_Yuzu_Koyama_large"
+				small="GFX_portrait_Yuzu_Koyama_small"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits = {
+				senshado_student
+				school_steward
+			}
+			desc = OAR_YUZU_KOYAMA_DESC
+			expire="1965.1.1.1"
+			
+		}
+			
+		advisor={
+			slot = political_advisor
+			idea_token = yuzu_koyama
+			allowed = {
+				original_tag = OAR
+				NOT = { is_country_leader = yes }
+			}
+			traits = {
+				school_steward
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	OAR_Character_Anzu_Kadotani={
+		name=OAR_ANZU_KADOTANI
+		portraits={
+			civilian={
+				large="GFX_portrait_Anzu_Kadotani_large"
+				small="GFX_portrait_Anzu_Kadotani_small"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			traits = {
+				senshado_disciple
+			}
+			desc = OAR_ANZU_KODATANI_DESC
+			expire="1965.1.1.1"
+			
+		}
+	}
+	OAR_character_Miho_Nishizumi={
+		name=OAR_MIHO_NISHIZUMI
+		portraits={
+			civilian={
+				large="GFX_portrait_Miho_Nishizumi_large"
+				small="GFX_portrait_Miho_Nishizumi_small"
+				}
+			army={
+				large="GFX_portrait_Miho_Nishizumi_large"
+				small="GFX_portrait_Miho_Nishizumi_small"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			traits = {
+				senshado_student
+				nishizumi_heresy
+			}
+			desc = OAR_MIHO_NISHIZUMI_DESC
+			expire="1965.1.1.1"
+			
+		}
+			
+		advisor={
+			slot = army_chief
+			idea_token = miho_nishizumi
+			allowed = {
+				original_tag = OAR
+				NOT = { is_country_leader = yes }
+			}
+			traits = {
+				nishizumi_heresy
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	OAR_Character_Momo_Kawashima={
+		name=OAR_MOMO_KAWASHIMA
+		portraits={
+			civilian={
+				large="GFX_portrait_Momo_Kawashima_large"
+				small="GFX_portrait_Momo_Kawashima_small"
+				}
+			army={
+				large="GFX_portrait_Momo_Kawashima_large"
+				small="GFX_portrait_Momo_Kawashima_small"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			traits = {
+				senshado_disciple
+				relentless_assault
+			}
+			desc = OAR_MOMO_KAWASHIMA_DESC
+			expire="1965.1.1.1"
+			
+		}
+			
+		advisor={
+			slot = high_command
+			idea_token = momo_kawashima
+			picture = "gfx/characters/OAR/Momo Kawashima.dds"
+			can_be_fired = no
+			ledger = army
+				allowed = {
+					original_tag = OAR
+					NOT = { is_country_leader = yes }
+					
+				}
+				traits = {
+					relentless_assault
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+			}
+		}
+	}
+}

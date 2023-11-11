@@ -1,0 +1,222 @@
+﻿l_english:
+ KOI_fascism:0 "Kuromorimine Girls Academy"
+ KOI_fascism_DEF:0 "Kuromorimine Girls Academy"
+ KOI_democratic:0 "Kuromorimine Elected School Council"
+ KOI_democratic_DEF:0 "the Kuromorimine Elected School Council"
+ KOI_neutrality:1 "Nishizumi School of Senshado"
+ KOI_neutrality_DEF:1 "the Nishizumi School of Senshado"
+ KOI_communism:0 "Unified Kuromorimine Tank Teams"
+ KOI_communism_DEF:0 "the Unified Kuromorimine Tank Teams"
+ KOI_fascism_ADJ:0 "Kuromorimine"
+ KOI_democratic_ADJ:0 "Kuromorimine"
+ KOI_neutrality_ADJ:0 "Nishizumi"
+ KOI_communism_ADJ:0 "Kuromorimine"
+ KOI_autonomy_supervised_state:0 "$OVERLORDADJ$ Kuromorimine Campus"
+ KOI_autonomy_supervised_state_DEF:0 "the $OVERLORDADJ$ Kuromorimine Campus"
+ KOI_autonomy_puppet:0 "$OVERLORDADJ$ Regulated Kuromorimine Girls Academy"
+ KOI_autonomy_puppet_DEF:0 "the $OVERLORDADJ$ Regulated Kuromorimine Girls Academy"
+ KOI_SOV_communism_autonomy_puppet:0 "Unified $OVERLORDADJ$-Kuromorimine Tank Teams"
+ KOI_SOV_communism_autonomy_puppet_DEF:0 "the Unified $OVERLORDADJ$-Kuromorimine Tank Teams"
+ KOI_SOV_communism_autonomy_puppet_ADJ:0 "$OVERLORDADJ$-Kuromorimine"
+ KOI:0 "Kuromorimine"
+ KOI_DEF:0 "Kuromorimine"
+ KOI_ADJ:0 "Kuromorimine"
+ OAR_fascism:0 "Yukari's Tank Republic"
+ OAR_fascism_DEF:0 "Yukari's Tank Republic"
+ OAR_democratic:0 "Elected Oarai Council"
+ OAR_democratic_DEF:0 "the Elected Oarai Council"
+ OAR_neutrality:1 "Oarai Girls Academy"
+ OAR_neutrality_DEF:1 "Oarai Girls Academy"
+ OAR_communism:0 "Communist State of Oarai"
+ OAR_communism_DEF:0 "the Communist State of Oarai"
+ OAR_fascism_ADJ:0 "Oarai"
+ OAR_democratic_ADJ:0 "Oarai"
+ OAR_neutrality_ADJ:0 "Oarai"
+ OAR_communism_ADJ:0 "Oarai"
+ OAR_autonomy_supervised_state:0 "$OVERLORDADJ$ Oarai Campus"
+ OAR_autonomy_supervised_state_DEF:0 "the $OVERLORDADJ$ Oarai Campus"
+ OAR_autonomy_puppet:0 "$OVERLORDADJ$ Regulated Oarai Girls Academy"
+ OAR_autonomy_puppet_DEF:0 "the $OVERLORDADJ$ Regulated Oarai Girls Academy"
+ OAR_SOV_communism_autonomy_puppet:0 "Unified $OVERLORDADJ$-Oarai Tank Teams"
+ OAR_SOV_communism_autonomy_puppet_DEF:0 "the Unified $OVERLORDADJ$-Oarai Tank Teams"
+ OAR_SOV_communism_autonomy_puppet_ADJ:0 "$OVERLORDADJ$-Oarai"
+ OAR:0 "Oarai"
+ OAR_DEF:0 "Oarai"
+ OAR_ADJ:0 "Oarai"
+ GLO_fascism:0 "St Gloriana's British Empire"
+ GLO_fascism_DEF:0 "St Gloriana's British Empire"
+ GLO_democratic:0 "St Gloriana Girls' College"
+ GLO_democratic_DEF:0 "St Gloriana Girls' College"
+ GLO_neutrality:0 "St Gloriana's British Sanctuary"
+ GLO_neutrality_DEF:0 "St Gloriana's British Sanctuary"
+ GLO_communism:0 "Union of British Crews"
+ GLO_communism_DEF:0 "the Union of British Crews"
+ GLO_fascism_ADJ:0 "Gloriana"
+ GLO_democratic_ADJ:0 "Gloriana"
+ GLO_neutrality_ADJ:0 "Gloriana"
+ GLO_communism_ADJ:0 "Gloriana"
+ GLO:0 "Gloriana"
+ GLO_DEF:0 "Gloriana"
+ GLO_ADJ:0 "Gloriana"
+ GLO_democratic_subject:0 "$OVERLORDADJ$ Britain"
+ GLO_democratic_subject_DEF:0 "$OVERLORDADJ$ Britain"
+ GLO_neutrality_subject:0 "$OVERLORDADJ$ Britain"
+ GLO_neutrality_subject_DEF:0 "$OVERLORDADJ$ Britain"
+ GLO_fascism_subject:0 "$OVERLORDADJ$ Protectorate of Britain"
+ GLO_fascism_subject_DEF:0 "the $OVERLORDADJ$ Protectorate of Britain"
+ GLO_communism_subject:0 "Socialist Republic of Great Britain"
+ GLO_communism_subject_DEF:0 "the Socialist Republic of Great Britain"
+ GLO_SOV_communism_subject:0 "British Soviet Socialist Republic"
+ GLO_SOV_communism_subject_DEF:0 "the British Soviet Socialist Republic"
+ SAU_fascism:0 "Saunders Nationalist Coalition"
+ SAU_fascism_DEF:0 "Saunders Nationalist Coalition"
+ SAU_democratic:0 "Saunders University High School"
+ SAU_democratic_DEF:0 "Saunders University High School"
+ SAU_neutrality:2 "America"
+ SAU_neutrality_DEF:2 "America"
+ SAU_communism:0 "Communist States of Saunders University"
+ SAU_communism_DEF:0 "the Communist States of Saunders University"
+ SAU_fascism_ADJ:0 "Saunders"
+ SAU_democratic_ADJ:0 "Saunders"
+ SAU_neutrality_ADJ:0 "Saunders"
+ SAU_communism_ADJ:0 "Saunders"
+ SAU:0 "Saunders"
+ SAU_DEF:0 "Saunders"
+ SAU_ADJ:0 "Saunders"
+ SAU_democratic_subject:0 "Democratic Union of Saunders University"
+ SAU_democratic_subject_DEF:0 "the Democratic Union of Saunders University"
+ SAU_neutrality_subject:0 "Neutral Protectorate of Saunders University"
+ SAU_neutrality_subject_DEF:0 "the Neutral Protectorate of Saunders University"
+ SAU_fascism_subject:0 "Fascist Protectorate of Saunders University"
+ SAU_fascism_subject_DEF:0 "the Fascist Protectorate of Saunders University"
+ SAU_communism_subject:0 "Communist Protectorate of Saunders University"
+ SAU_communism_subject_DEF:0 "the Communist Protectorate of Saunders University"
+ WAF_fascism:0 "Grand Waffle Domain"
+ WAF_fascism_DEF:0 "the Grand Waffle Domain"
+ WAF_democratic:0 "Waffle Academy"
+ WAF_democratic_DEF:0 "Waffle Academy"
+ WAF_neutrality:0 "State of Waffle"
+ WAF_neutrality_DEF:0 "State of Waffle"
+ WAF_communism:0 "Communist Republic of Waffle"
+ WAF_communism_DEF:0 "the Communist Republic of Waffle"
+ WAF_fascism_ADJ:0 "Waffle"
+ WAF_democratic_ADJ:0 "Waffle"
+ WAF_neutrality_ADJ:0 "Waffle"
+ WAF_communism_ADJ:0 "Waffle"
+ WAF:0 "Waffle"
+ WAF_DEF:0 "Waffle"
+ WAF_ADJ:0 "Waffle"
+ WAF_subject:0 "$OVERLORDADJ$ $WAF$"
+ WAF_subject_DEF:0 "$OVERLORDADJ$ $WAF$"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

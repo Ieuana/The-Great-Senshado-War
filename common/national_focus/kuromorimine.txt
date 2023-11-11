@@ -1,0 +1,1074 @@
+﻿focus_tree = {
+	id = KOI_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KOI
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 60 y = 2000 }
+
+	focus = {
+		id = KOI_kuromorimine_ascension
+		icon = GFX_goal_kuromorimine_ascension
+		x = 3
+		y = 0
+		#relative_position_id = 
+		
+		cost = 10
+		#prerequisite = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = KOI_nishizumi_heresy
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 1
+		relative_position_id = KOI_kuromorimine_ascension
+		
+		cost = 10
+		prerequisite = { focus = KOI_kuromorimine_ascension }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = KOI_nishizumi_consolidation
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 1
+		relative_position_id = KOI_nishizumi_heresy
+		
+		cost = 10
+		prerequisite = { focus = KOI_nishizumi_heresy }
+		mutually_exclusive = { focus = KOI_nishizumi_elimination }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = KOI_nishizumi_elimination
+		icon = GFX_goal_generic_major_war
+		x = -5
+		y = 1
+		relative_position_id = KOI_nishizumi_heresy
+		
+		cost = 10
+		prerequisite = { focus = KOI_nishizumi_heresy }
+		mutually_exclusive = { focus = KOI_nishizumi_consolidation }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_align_the_german_state
+		icon = GFX_goal_generic_major_war
+		x = -5
+		y = 1
+		relative_position_id = KOI_kuromorimine_ascension
+		
+		cost = 10
+		prerequisite = { focus = KOI_kuromorimine_ascension }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_hitlers_ambitions
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 1
+		relative_position_id = KOI_align_the_german_state
+		
+		cost = 10
+		prerequisite = { focus = KOI_align_the_german_state }
+		mutually_exclusive = { focus = KOI_new_german_empire }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_dominate_the_east
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		relative_position_id = KOI_hitlers_ambitions
+		
+		cost = 10
+		prerequisite = { focus = KOI_nishizumi_elimination focus = KOI_hitlers_ambitions }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_recover_austria
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = KOI_remilitarise_the_rhineland
+		
+		cost = 10
+		prerequisite = { focus = KOI_remilitarise_the_rhineland }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_remilitarise_the_rhineland
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = KOI_hitlers_ambitions
+		
+		cost = 10
+		prerequisite = { focus = KOI_hitlers_ambitions }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_sudetenland_restoration
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 1
+		relative_position_id = KOI_recover_austria
+		
+		cost = 10
+		prerequisite = { focus = KOI_recover_austria }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_end_of_czeckoslovakia
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = KOI_sudetenland_restoration
+		
+		cost = 10
+		prerequisite = { focus = KOI_sudetenland_restoration }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_hitlers_rise_to_power
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 3
+		relative_position_id = KOI_recover_austria
+		
+		cost = 10
+		prerequisite = { focus = KOI_recover_austria }
+		prerequisite = { focus = KOI_end_of_czeckoslovakia }
+		prerequisite = { focus = KOI_elimination_of_poland }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_eastern_claims
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = KOI_dominate_the_east
+		
+		cost = 10
+		prerequisite = { focus = KOI_dominate_the_east }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_demand_danzig
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = KOI_eastern_claims
+		
+		cost = 10
+		prerequisite = { focus = KOI_eastern_claims }
+		prerequisite = { focus = KOI_recover_austria }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_lithuanian_annexation
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		relative_position_id = KOI_eastern_claims
+		
+		cost = 10
+		prerequisite = { focus = KOI_eastern_claims }
+		prerequisite = { focus = KOI_nishizumi_elimination }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_elimination_of_poland
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = KOI_demand_danzig
+		
+		cost = 10
+		prerequisite = { focus = KOI_demand_danzig }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_disinheritance_of_miho
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = KOI_lithuanian_annexation
+		
+		cost = 10
+		prerequisite = { focus = KOI_lithuanian_annexation }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_open_diplomacy
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = KOI_nishizumi_consolidation
+		
+		cost = 10
+		prerequisite = { focus = KOI_nishizumi_consolidation }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_support_the_royalists
+		icon = GFX_goal_generic_major_war
+		x = -4
+		y = 1
+		relative_position_id = KOI_align_the_german_state
+		
+		cost = 10
+		prerequisite = { focus = KOI_align_the_german_state }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_royalist_sentiment
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		relative_position_id = KOI_support_the_royalists
+		
+		cost = 10
+		prerequisite = { focus = KOI_support_the_royalists }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_pressure_the_netherlands
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = KOI_royalist_sentiment
+		
+		cost = 10
+		prerequisite = { focus = KOI_royalist_sentiment }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_kuromorimine_royalism
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 1
+		relative_position_id = KOI_support_the_royalists
+		
+		cost = 10
+		prerequisite = { focus = KOI_support_the_royalists }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_Kuromorimine_Imperialism
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = KOI_kuromorimine_royalism
+		
+		cost = 10
+		prerequisite = { focus = KOI_kuromorimine_royalism }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_return_of_the_kaiser
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		relative_position_id = KOI_Kuromorimine_Imperialism
+		
+		cost = 10
+		prerequisite = { focus = KOI_Kuromorimine_Imperialism }
+		prerequisite = { focus = KOI_pressure_the_netherlands }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_royal_alliance
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = KOI_return_of_the_kaiser
+		
+		cost = 10
+		prerequisite = { focus = KOI_return_of_the_kaiser }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_new_german_empire
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = KOI_royal_alliance
+		
+		cost = 10
+		prerequisite = { focus = KOI_royal_alliance }
+		mutually_exclusive = { focus = KOI_hitlers_rise_to_power }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_aid_for_oarai
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = KOI_open_diplomacy
+		
+		cost = 10
+		prerequisite = { focus = KOI_open_diplomacy }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_expulsion_of_kuromorimine
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 1
+		relative_position_id = KOI_hitlers_rise_to_power
+		
+		cost = 10
+		prerequisite = { focus = KOI_hitlers_rise_to_power }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_lost_deal
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 1
+		relative_position_id = KOI_aid_for_oarai
+		
+		cost = 10
+		prerequisite = { focus = KOI_aid_for_oarai }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			any_country = {
+				original_tag = OAR
+				has_completed_focus = OAR_break_the_deal
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	focus = {
+		id = KOI_transport_miho
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 1
+		relative_position_id = KOI_aid_for_oarai
+		
+		cost = 10
+		prerequisite = { focus = KOI_aid_for_oarai }
+		#mutually_exclusive = { focus =  }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+
+		available = {
+			any_country = {
+				original_tag = OAR
+				has_completed_focus = OAR_end_the_heresy
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		
+	}
+	
+}

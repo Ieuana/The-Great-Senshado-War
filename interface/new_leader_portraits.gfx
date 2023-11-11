@@ -1,0 +1,105 @@
+spriteTypes = {
+	###Kuromorimine Portraits###
+	spriteType = {
+		name = "GFX_portrait_Maho_Nishizumi_large"
+		texturefile = "gfx/leaders/KOI/Maho Nishizumi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Maho_Nishizumi_small"
+		texturefile = "gfx/characters/KOI/Maho Nishizumi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Erika_Itsumi_large"
+		texturefile = "gfx/leaders/KOI/Erika Itsumi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Erika_Itsumi_small"
+		texturefile = "gfx/characters/KOI/Erika Itsumi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Adolf_Hitler_large"
+		texturefile = "gfx/leaders/KOI/Adolf Hitler.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Adolf_Hitler_small"
+		texturefile = "gfx/characters/KOI/Adolf Hitler.dds"
+	}
+	
+	###Oarai Portraits###
+	spriteType = {
+		name = "GFX_portrait_Anzu_Kadotani_large"
+		texturefile = "gfx/leaders/OAR/Anzu Kadotani.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Anzu_Kadotani_small"
+		texturefile = "gfx/characters/OAR/Anzu Kadotani.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Miho_Nishizumi_large"
+		texturefile = "gfx/leaders/OAR/Miho Nishizumi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Miho_Nishizumi_small"
+		texturefile = "gfx/characters/OAR/Miho Nishizumi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Yuzu_Koyama_large"
+		texturefile = "gfx/leaders/OAR/Yuzu Koyama.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Yuzu_Koyama_small"
+		texturefile = "gfx/characters/OAR/Yuzu Koyama.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Momo_Kawashima_large"
+		texturefile = "gfx/leaders/OAR/Momo Kawashima.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Momo_Kawashima_small"
+		texturefile = "gfx/characters/OAR/Momo Kawashima.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Hana_Isuzu_large"
+		texturefile = "gfx/leaders/OAR/Hana Isuzu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Hana_Isuzu_small"
+		texturefile = "gfx/characters/OAR/Hana Isuzu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Saori_Takebi_large"
+		texturefile = "gfx/leaders/OAR/Saori Takebi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Saori_Takebi_small"
+		texturefile = "gfx/characters/OAR/Saori Takebi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Yukari_Akiyama_large"
+		texturefile = "gfx/leaders/OAR/Yukari Akiyama.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Yukari_Akiyama_small"
+		texturefile = "gfx/characters/OAR/Yukari Akiyama.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Mako_Reizei_large"
+		texturefile = "gfx/leaders/OAR/Mako Reizei.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Mako_Reizei_small"
+		texturefile = "gfx/characters/OAR/Mako Reizei.dds"
+	}
+	
+	###Gloriana Portraits###
+	spriteType = {
+		name = "GFX_portrait_Darjeeling_large"
+		texturefile = "gfx/leaders/GLO/Darjeeling.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Darjeeling_small"
+		texturefile = "gfx/characters/GLO/Darjeeling.dds"
+	}
+	
+}

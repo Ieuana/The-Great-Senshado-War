@@ -1,0 +1,41 @@
+characters={
+	GLO_character_Darjeeling={
+		name=GLO_DARJEELING
+		portraits={
+			civilian={
+				large="GFX_portrait_Darjeeling_large"
+				small="GFX_portrait_Darjeeling_small"
+				}
+			army={
+				large="GFX_portrait_Darjeeling_large"
+				small="GFX_portrait_Darjeeling_small"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits = {
+				senshado_student
+				tank_fanatic
+			}
+			desc = GLO_DARJEELING_DESC
+			expire="1965.1.1.1"
+			
+		}
+			
+		advisor={
+			slot = high_command
+			idea_token = darjeeling
+			allowed = {
+				original_tag = OAR
+				NOT = { is_country_leader = yes }
+			}
+			traits = {
+				tank_fanatic
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+}

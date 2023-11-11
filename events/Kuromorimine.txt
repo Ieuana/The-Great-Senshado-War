@@ -1,0 +1,58 @@
+﻿###########################
+# Kuromorimine Events
+###########################
+
+add_namespace = kuromorimine
+
+# Hitler Demands Power!
+country_event = {
+	id = kuromorimine.1
+	title = kuromorimine.1.t
+	desc = kuromorimine.1.d
+	picture = GFX_report_event_bul_military_parade_vidin
+	
+	is_triggered_only = yes
+	
+	option = { # surrender
+		name = kuromorimine.1.a
+		ai_chance = { factor = 90 }
+		effect_tooltip = {
+				
+		}
+		hidden_effect = {
+			
+		}
+	promote_character = KOI_Character_Adolf_Hitler
+	set_party_name = { 
+		ideology = fascist
+		name = KOI_fascism_party_hitlers_party
+		long_name = KOI_fascism_party_hitlers_party_long
+		}
+	}
+	option = { # civil war
+		name = kuromorimine.1.b
+		ai_chance = { factor = 10 }
+		JAP = {
+		
+		}
+		hidden_effect = {
+		
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+	option = { # escape
+		name = kuromorimine.1.c
+		ai_chance = { factor = 90 }
+		effect_tooltip = {
+		
+		}
+		hidden_effect = {
+			
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+}

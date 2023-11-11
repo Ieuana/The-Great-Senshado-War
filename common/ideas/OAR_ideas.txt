@@ -1,0 +1,36 @@
+ideas = {
+	
+	country = {
+		OAR_funding_crisis = {
+			name = OAR_funding_crisis
+			allowed = {
+				original_tag = OAR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = OAR_funding_crisis
+
+			modifier = {
+				consumer_goods_factor = 0.30
+				stability_factor = -0.20
+			}
+		}
+		OAR_united_government = {
+			
+			allowed = {
+				original_tag = OAR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+		}
+		
+	}
+}

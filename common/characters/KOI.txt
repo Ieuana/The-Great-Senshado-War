@@ -1,0 +1,127 @@
+characters={
+	KOI_Character_Maho_Nishizumi={
+		name=KOI_MAHO_NISHIZUMI
+		portraits={
+			civilian={
+				large="GFX_portrait_Maho_Nishizumi_large"
+				small="GFX_portrait_Maho_Nishizumi_small"
+			}
+			army={
+				large="GFX_portrait_Maho_Nishizumi_large"
+				small="GFX_portrait_Maho_Nishizumi_small"
+			}
+		}
+		country_leader={
+			ideology=falangism
+			traits={
+				senshado_student
+				}
+			
+			}
+			desc = KOI_MAHO_NISHIZUMI_DESC
+			expire="1965.1.1.1"
+		}
+		
+		advisor={
+			slot = high_command
+			idea_token = maho_nishizumi
+			can_be_fired = no
+			picture = "gfx/characters/KOI/Maho Nishizumi.dds"
+			ledger = army
+				allowed = {
+					original_tag = KOI
+					NOT = { is_country_leader = yes }
+				}
+				traits = {
+					army_infantry_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+			}
+		}
+		
+	KOI_Character_Erika_Itsumi={
+		name=KOI_ERIKA_ITSUMI
+		portraits={
+			civilian={
+				large="GFX_portrait_Erika_Itsumi_large"
+				small="GFX_portrait_Erika_Itsumi_small"
+				}
+			army={
+				large="GFX_portrait_Erika_Itsumi_large"
+				small="GFX_portrait_Erika_Itsumi_small"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			traits = {
+				senshado_student
+				}
+			desc = KOI_ERIKA_ITSUMI_DESC
+			expire="1965.1.1.1"
+			
+		}
+			
+		advisor={
+			slot = high_command
+			idea_token = erika_itsumi
+			can_be_fired = no
+			picture = "gfx/characters/KOI/Erika Itsumi.dds"
+			ledger = army
+				allowed = {
+					original_tag = KOI
+					NOT = { is_country_leader = yes }
+				}
+				traits = {
+					army_infantry_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+			}
+		}
+	}
+	KOI_Character_Adolf_Hitler={
+		name=KOI_ADOLF_HITLER
+		portraits={
+			civilian={
+				large="GFX_portrait_Adolf_Hitler_large"
+				small="GFX_portrait_Adolf_Hitler_small"
+				}
+			army={
+				large="GFX_portrait_Adolf_Hitler_large"
+				small="GFX_portrait_Adolf_Hitler_small"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits = {
+				dictator
+				}
+			desc = KOI_ADOLF_HITLER_DESC
+			expire="1965.1.1.1"
+			
+		}
+			
+		advisor={
+			slot = high_command
+			idea_token = adolf_hitler
+			can_be_fired = yes
+			picture = "gfx/characters/KOI/Erika Itsumi.dds"
+			ledger = army
+				allowed = {
+					original_tag = KOI
+					NOT = { is_country_leader = yes }
+				}
+				traits = {
+					weimar_radical
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+			}
+		}
+	}
+	
+}

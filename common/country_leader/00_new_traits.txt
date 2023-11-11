@@ -1,0 +1,89 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+@experience_gain_low = 0.03
+@experience_gain_medium = 0.06
+@experience_gain_high = 0.08
+
+@chief_experience_gain_low = 0.20
+@chief_experience_gain_medium = 0.30
+@chief_experience_gain_high = 0.40
+
+###Todo remove commented advisor experience gains
+
+leader_traits = {
+	
+	weimar_radical = {
+		random = no
+		fascism_drift = 0.10
+		war_support_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tank_fanatic = {
+		random = no
+		army_armor_attack_factor = 0.1
+		army_armor_defence_factor =0.1
+		army_armor_speed_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	senshado_student = {
+		random = no
+		political_power_gain = 0.25
+        stability_factor = -0.10
+		war_support_factor = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	senshado_disciple = {
+		random = no
+        stability_factor = -0.05
+		war_support_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	school_steward = {
+		random = no
+		consumer_goods_factor = -0.10
+		min_export = -0.10
+		equipment_capture_factor = 0.10
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	relentless_assault = {
+		random = no
+		army_defence_factor = -0.05
+        army_attack_factor = 0.10
+		war_support_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	nishizumi_heresy = {
+		random = no
+		army_defence_factor = 0.05
+        army_attack_factor = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
